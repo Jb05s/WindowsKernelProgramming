@@ -1,0 +1,17 @@
+﻿  Building 'PriorityBooster' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  PriorityBooster.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\km\ntifs.h(85,52): error C2371: 'PEPROCESS': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\km\wdm.h(84): message : see declaration of 'PEPROCESS'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\km\ntifs.h(86,49): error C2371: 'PETHREAD': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\km\wdm.h(85): message : see declaration of 'PETHREAD'
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(66,17): error C2223: left of '->Parameters' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(68,21): error C2223: left of '->Parameters' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(73,35): error C2223: left of '->Parameters' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(74,19): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(78,13): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(78,35): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(84,57): error C2223: left of '->ThreadId' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(84,65): error C2198: 'ULongToHandle': too few arguments for call
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(88,47): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(88,55): error C2198: 'KeSetPriorityThread': too few arguments for call
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(63,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'PIO_STACK_LOCATION'

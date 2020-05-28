@@ -1,0 +1,17 @@
+﻿  Building 'PriorityBooster' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  PriorityBooster.c
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBoosterCommon.h(8,2): error C2220: the following warning is treated as an error
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBoosterCommon.h(8,2): warning C4091: 'typedef ': ignored on left of 'ThreadData' when no variable is declared
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(28,17): error C2223: left of '->Parameters' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(30,21): error C2223: left of '->Parameters' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(35,42): error C2223: left of '->Parameters' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(36,19): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(40,13): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(40,35): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(46,36): error C4013: 'PsLookupThreadByThreadId' undefined; assuming extern returning int
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(46,37): error C2223: left of '->ThreadId' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(50,47): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(50,55): error C2198: 'KeSetPriorityThread': too few arguments for call
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(52,3): error C2223: left of '->ThreadId' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(52,3): error C2223: left of '->Priority' must point to struct/union
+C:\Users\Jb05s\source\repos\PriorityBooster\PriorityBooster\PriorityBooster.c(25,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'PIO_STACK_LOCATION'
