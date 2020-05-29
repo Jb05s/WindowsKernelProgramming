@@ -1,0 +1,42 @@
+;
+; Sample.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ServiceDesc%
+DriverVer=
+CatalogFile=Sample.cat
+PnpLockDown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+
+
+[DefaultInstall.NTamd64]
+OptionDesc = %ServiceDesc%
+
+[DefaultInstall.NTamd64.Services]
+AddService = acdrv,,
+
+[DefaultInstall.NTx86]
+OptionDesc = %ServiceDesc%
+
+[DefaultInstall.NTx86.Services]
+AddService = acdrv,,
+
+[Standard.NT$ARCH$]
+
+
+[Strings]
+ServiceDesc = "Jb05s" ;TODO: Replace with your manufacturer name
+ClassName = ""
+DiskName = "Sample Source Disk"
